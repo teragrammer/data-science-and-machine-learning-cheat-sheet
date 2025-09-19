@@ -1,6 +1,7 @@
-### Runing the project folder
+### Running the project folder
 ```
 $ conda activate ./env
+$ jupyter notebook
 ```
 
 ### Update packages
