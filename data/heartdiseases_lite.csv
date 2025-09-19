@@ -1,0 +1,51 @@
+Age,Gender,Education,Income,Smoker,Cholesterol,Heart_Disease
+42,Female,Bachelor's Degree,65000,No,180,No
+55,Male,High School Diploma,40000,Yes,245,Yes
+30,Female,Master's Degree,80000,Yes,210,No
+39,Male,Some College,50000,Yes,195,No
+27,Male,Some College,30000,No,170,No
+46,Female,Doctorate Degree,90000,No,200,Yes
+35,Male,Some College,55000,No,190,No
+48,Female,High School Diploma,42000,Yes,225,Yes
+29,Male,Bachelor's Degree,70000,Yes,185,No
+54,Female,Some College,48000,No,235,Yes
+41,Female,Master's Degree,75000,Yes,195,No
+32,Male,Bachelor's Degree,62000,No,170,No
+43,Female,High School Diploma,38000,Yes,240,Yes
+37,Male,Some College,55000,No,200,No
+28,Female,Master's Degree,65000,No,185,No
+52,Male,Some College,46000,Yes,215,Yes
+33,Female,Bachelor's Degree,68000,Yes,200,No
+49,Male,Doctorate Degree,100000,No,230,Yes
+36,Male,High School Diploma,35000,Yes,190,Yes
+31,Female,Some College,45000,No,175,No
+44,Male,Bachelor's Degree,78000,Yes,205,Yes
+40,Female,Some College,60000,No,195,No
+26,Male,Some College,28000,No,160,No
+47,Male,Master's Degree,85000,No,220,Yes
+38,Female,High School Diploma,32000,Yes,235,Yes
+50,Male,Some College,54000,Yes,225,Yes
+34,Male,Master's Degree,72000,Yes,195,No
+45,Female,Bachelor's Degree,68000,Yes,190,No
+29,Male,High School Diploma,38000,No,175,No
+56,Female,Doctorate Degree,110000,No,250,Yes
+51,Male,Some College,58000,Yes,215,Yes
+42,Male,Master's Degree,92000,No,200,Yes
+33,Female,Some College,55000,Yes,185,No
+48,Male,Bachelor's Degree,75000,Yes,215,Yes
+27,Female,High School Diploma,29000,Yes,165,No
+40,Male,Some College,52000,No,205,No
+35,Female,Bachelor's Degree,68000,Yes,195,No
+52,Male,Doctorate Degree,120000,No,230,Yes
+43,Female,Some College,63000,Yes,205,Yes
+29,Male,Bachelor's Degree,75000,Yes,185,No
+46,Female,Master's Degree,98000,No,210,Yes
+31,Male,Some College,48000,Yes,185,No
+44,Female,High School Diploma,42000,Yes,220,Yes
+37,Male,Master's Degree,78000,No,200,No
+26,Female,Some College,29000,No,170,No
+49,Male,Bachelor's Degree,85000,No,225,Yes
+38,Female,High School Diploma,32000,Yes,235,Yes
+50,Male,Some College,54000,Yes,225,Yes
+34,Male,Master's Degree,72000,Yes,195,No
+45,Female,Bachelor's Degree,68000,Yes,190,No
