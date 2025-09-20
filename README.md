@@ -9,9 +9,9 @@ $ jupyter notebook
 $ pip install -U package-name
 ```
 
-### Exporting Enviroment
+### Exporting Environment
 ```
-$ conda export > filename.yml
+$ conda export > environment.yml
 ```
 
 ### Using the Exported Environment
