@@ -1,10 +1,13 @@
-name: /home/xcql/Documents/projects/machine-learning/env
+name: 
+  /home/xcql/uGALpXeP4FEJ9iPi/Projects/github.com/data-science-and-machine-learning-cheat-sheet/env
 channels:
   - defaults
+  - anaconda
 dependencies:
   - _anaconda_depends=2025.06=py311_mkl_0
   - _libgcc_mutex=0.1=main
   - _openmp_mutex=5.1=1_gnu
+  - adwaita-icon-theme=48.0=h06a4308_0
   - aext-assistant=4.20.0=py311h06a4308_jl4_0
   - aext-assistant-server=4.20.0=py311h06a4308_0
   - aext-core=4.20.0=py311h06a4308_jl4_0
@@ -48,6 +51,9 @@ dependencies:
   - asttokens=3.0.0=py311h06a4308_0
   - async-lru=2.0.4=py311h06a4308_0
   - asyncssh=2.17.0=py311h06a4308_0
+  - at-spi2-atk=2.34.2=hfac8509_1
+  - at-spi2-core=2.36.0=h597f2ad_2
+  - atk-1.0=2.36.0=ha1a6a79_0
   - atomicwrites=1.4.0=py_0
   - attrs=24.3.0=py311h06a4308_0
   - automat=24.8.1=py311h06a4308_0
@@ -91,8 +97,9 @@ dependencies:
   - bzip2=1.0.8=h5eee18b_6
   - c-ares=1.19.1=h5eee18b_0
   - c-blosc2=2.17.1=h4257ac4_0
-  - ca-certificates=2025.2.25=h06a4308_0
-  - certifi=2025.4.26=py311h06a4308_0
+  - ca-certificates=2025.9.9=h06a4308_0
+  - cairo=1.16.0=he5ede1b_6
+  - certifi=2025.8.3=py311h06a4308_0
   - cffi=1.17.1=py311h1fdaa30_1
   - cfitsio=3.470=h5893167_7
   - chardet=4.0.0=py311h06a4308_1003
@@ -144,6 +151,7 @@ dependencies:
   - distro=1.9.0=py311h06a4308_0
   - docstring-to-markdown=0.11=py311h06a4308_0
   - entrypoints=0.4=py311h06a4308_0
+  - epoxy=1.5.4=h7f8727e_2
   - et_xmlfile=1.1.0=py311h06a4308_0
   - evalidate=2.0.3=py311h06a4308_0
   - executing=0.8.3=pyhd3eb1b0_0
@@ -158,13 +166,17 @@ dependencies:
   - font-ttf-ubuntu=0.83=h8b1ccd4_0
   - fontconfig=2.14.1=h55d465d_3
   - fonts-anaconda=1=h8fa9717_0
+  - fonts-conda-ecosystem=1=hd3eb1b0_0
   - fonttools=4.55.3=py311h5eee18b_0
   - freetype=2.13.3=h4a9f257_0
+  - fribidi=1.0.10=h7b6447c_0
   - frozendict=2.4.2=py311h06a4308_0
   - frozenlist=1.5.0=py311h5eee18b_0
   - fsspec=2024.12.0=py311h06a4308_0
   - future=1.0.0=py311h06a4308_0
+  - gdk-pixbuf=2.42.10=h64b468e_2
   - gensim=4.3.3=py311ha02d727_0
+  - gettext=0.21.0=hedfda30_2
   - gflags=2.2.2=h6a678d5_1
   - giflib=5.2.2=h5eee18b_0
   - gitdb=4.0.7=pyhd3eb1b0_0
@@ -174,13 +186,19 @@ dependencies:
   - glog=0.5.0=h6a678d5_1
   - gmp=6.3.0=h6a678d5_0
   - gmpy2=2.2.1=py311h5eee18b_0
+  - gobject-introspection=1.78.1=py311hdcea8e7_3
+  - graphite2=1.3.14=h295c915_1
   - greenlet=3.1.1=py311h6a678d5_0
   - gst-plugins-base=1.14.1=h6a678d5_1
   - gstreamer=1.14.1=h5eee18b_1
+  - gtk3=3.24.21=h40e4fd3_8
+  - gts=0.7.6=hb67d8dd_3
   - h11=0.16.0=py311h06a4308_0
   - h5py=3.12.1=py311h5842655_1
+  - harfbuzz=10.2.0=hdfddeaa_1
   - hdf5=1.14.5=h2b7332f_2
   - heapdict=1.0.1=pyhd3eb1b0_0
+  - hicolor-icon-theme=0.17=h06a4308_2
   - holoviews=1.20.2=py311h06a4308_0
   - httpcore=1.0.9=py311h06a4308_0
   - httpx=0.28.1=py311h06a4308_0
@@ -266,6 +284,7 @@ dependencies:
   - libevent=2.1.12=hdbd6064_1
   - libffi=3.4.4=h6a678d5_1
   - libgcc-ng=11.2.0=h1234567_1
+  - libgd=2.3.3=h536bbd8_4
   - libgfortran-ng=11.2.0=h00389a5_1
   - libgfortran5=11.2.0=h1234567_1
   - libglib=2.78.4=hdc74915_0
@@ -281,6 +300,7 @@ dependencies:
   - libpq=17.4=hdbd6064_0
   - libprotobuf=5.29.3=hc99497a_0
   - libre2-11=2024.07.02=h6a678d5_0
+  - librsvg=2.56.3=hb0330b6_2
   - libsodium=1.0.18=h7b6447c_0
   - libsolv=0.7.30=he621ea3_1
   - libspatialindex=1.9.3=h2531618_0
@@ -288,6 +308,7 @@ dependencies:
   - libstdcxx-ng=11.2.0=h1234567_1
   - libthrift=0.15.0=h1795dd8_2
   - libtiff=4.7.0=hde9077f_0
+  - libtool=2.4.7=h6a678d5_0
   - libuuid=1.41.5=h5eee18b_0
   - libwebp=1.3.2=h9f374a3_1
   - libwebp-base=1.3.2=h5eee18b_1
@@ -346,6 +367,8 @@ dependencies:
   - ncurses=6.4=h6a678d5_0
   - nest-asyncio=1.6.0=py311h06a4308_0
   - networkx=3.4.2=py311h06a4308_0
+  - ninja=1.12.1=h06a4308_0
+  - ninja-base=1.12.1=hdb19cb5_0
   - nlohmann_json=3.11.2=h6a678d5_0
   - nltk=3.9.1=py311h06a4308_0
   - notebook=7.3.2=py311h06a4308_0
@@ -361,7 +384,7 @@ dependencies:
   - openjpeg=2.5.2=h0d4d230_1
   - openldap=2.6.4=h42fbc30_0
   - openpyxl=3.1.5=py311h5eee18b_1
-  - openssl=3.0.16=h5eee18b_0
+  - openssl=3.0.17=h5eee18b_0
   - orc=2.1.1=hd396ef6_0
   - overrides=7.4.0=py311h06a4308_0
   - packaging=24.2=py311h06a4308_0
@@ -369,6 +392,7 @@ dependencies:
   - pandoc=2.12=h06a4308_3
   - pandocfilters=1.5.0=pyhd3eb1b0_0
   - panel=1.7.0=py311h06a4308_0
+  - pango=1.50.7=h668f713_2
   - param=2.2.0=py311h06a4308_0
   - parsel=1.8.1=py311h06a4308_0
   - parso=0.8.4=py311h06a4308_0
@@ -384,12 +408,16 @@ dependencies:
   - pexpect=4.8.0=pyhd3eb1b0_3
   - pickleshare=0.7.5=pyhd3eb1b0_1003
   - pillow=11.1.0=py311hac6e08b_1
+  - pip=25.2=pyhc872135_0
+  - pixman=0.46.4=h7934f7d_0
   - pkce=1.0.3=py311h06a4308_0
   - pkginfo=1.12.0=py311h06a4308_0
   - platformdirs=4.3.7=py311h06a4308_0
   - plotly=6.0.1=py311he3bba80_0
   - pluggy=1.5.0=py311h06a4308_0
   - ply=3.11=py311h06a4308_0
+  - poppler=24.09.0=hc52b300_2
+  - poppler-data=0.4.11=h06a4308_1
   - poyo=0.5.0=pyhd3eb1b0_0
   - prometheus_client=0.21.1=py311h06a4308_0
   - prompt-toolkit=3.0.43=py311h06a4308_0
@@ -439,6 +467,7 @@ dependencies:
   - python-dateutil=2.9.0post0=py311h06a4308_2
   - python-dotenv=1.1.0=py311h06a4308_0
   - python-fastjsonschema=2.20.0=py311h06a4308_0
+  - python-graphviz=0.16=pyhd3eb1b0_1
   - python-json-logger=3.2.1=py311h06a4308_0
   - python-kaleido=0.2.1=py311h06a4308_0
   - python-libarchive-c=5.1=pyhd3eb1b0_0
@@ -582,7 +611,17 @@ dependencies:
   - xkeyboard-config=2.44=h5eee18b_0
   - xorg-libx11=1.8.12=h9b100fa_1
   - xorg-libxau=1.0.12=h9b100fa_0
+  - xorg-libxcomposite=0.4.6=h9b100fa_2
+  - xorg-libxcursor=1.2.3=h9b100fa_0
+  - xorg-libxdamage=1.1.6=h9b100fa_0
   - xorg-libxdmcp=1.1.5=h9b100fa_0
+  - xorg-libxext=1.3.6=h9b100fa_0
+  - xorg-libxfixes=6.0.1=h9b100fa_0
+  - xorg-libxi=1.8.2=h9b100fa_0
+  - xorg-libxinerama=1.1.5=h50385e7_1
+  - xorg-libxrandr=1.5.4=h9b100fa_0
+  - xorg-libxrender=0.9.12=h9b100fa_0
+  - xorg-libxtst=1.2.5=h9b100fa_3
   - xorg-xorgproto=2024.1=h5eee18b_1
   - xxhash=0.8.0=h7f8727e_3
   - xyzservices=2022.9.0=py311h06a4308_1
@@ -618,6 +657,7 @@ dependencies:
       - flatbuffers==24.3.25
       - gast==0.6.0
       - google-pasta==0.2.0
+      - graphviz==0.21
       - grpcio==1.68.0
       - keras==3.7.0
       - libclang==18.1.1
@@ -631,10 +671,10 @@ dependencies:
       - opencv-python==4.10.0.84
       - opt-einsum==3.4.0
       - optree==0.13.1
-      - pip==25.2
       - plux==1.11.1
       - protobuf==5.29.0
       - pyaes==1.6.1
+      - pydot==4.0.1
       - pyotp==2.9.0
       - pyproject-hooks==1.2.0
       - python-jose==3.3.0
@@ -648,4 +688,5 @@ dependencies:
       - tensorflow-io-gcs-filesystem==0.37.1
       - termcolor==2.5.0
       - tf-keras==2.19.0
-prefix: /home/xcql/Documents/projects/machine-learning/env
+prefix: 
+  /home/xcql/uGALpXeP4FEJ9iPi/Projects/github.com/data-science-and-machine-learning-cheat-sheet/env
