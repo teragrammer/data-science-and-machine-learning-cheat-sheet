@@ -19,6 +19,14 @@ $ conda export > environment.yml
 $ conda env create --prefix ./env -f ./environment.yml
 ```
 
+### Frameworks & Libraries
+- [JAX](https://docs.jax.dev)
+- [PyTorch](https://pytorch.org)
+- [Tensorflow](https://www.tensorflow.org)
+- [SciKitLearn](https://scikit-learn.org)
+- [CatBoost](https://catboost.ai)
+- [XGBoost](https://xgboost.ai)
+
 ### Large Datasets Download Links
 - [Dog Breed Images](https://www.dropbox.com/s/9kjr0ui9qbodfao/dog-breed-identification.zip?dl=0)
 
