@@ -24,3 +24,6 @@ models/*
 !models/.gitkeep
 logs/*
 !logs/.gitkeep
+
+__practice__/*
+!__practice__/.gitkeep
