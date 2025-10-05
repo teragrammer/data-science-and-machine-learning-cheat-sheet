@@ -17,6 +17,11 @@ data/dog-datasets/test/*
 data/dog-datasets/train/*
 !data/dog-datasets/train/.gitkeep
 
+*.h5
+*.keras
+*.joblib
+*.pkl
+
 env/
 anaconda_projects/
 
